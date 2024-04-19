@@ -10,7 +10,7 @@
 </head>
 <body>
 <div id="page_container">
-<header>
+<header></header>
   <div class="jumbotron" >
     <div class="container">
       <div class="row">
@@ -19,15 +19,16 @@
           <p class="text-center">&nbsp;</p>
           <h6 class="text-center"><a href="https://scholar.google.com/citations?user=ZjknvysAAAAJ">Zhiying Leng</a><sup>1,2</sup>, <a href="https://scholar.google.com/citations?user=_Bxd5ggAAAAJ">Tolga Birdal</a><sup>3</sup>, <a href="https://scse.buaa.edu.cn/info/1089/2963.htm">Xiaohui Liang</a><sup>2,4</sup>, <a href="https://scholar.google.com/citations?user=TFsE4BIAAAAJ">Federico Tombari</a><sup>1</sup></h6>
           <p class="text-center"><sup>1</sup>Technical University of Munich, Germany   &emsp;   <sup>3</sup>Imperial College London, U.K. </p>
-	  <p class="text-center"><sup>2</sup>Beihang University, China    &emsp;   &emsp;  &emsp; &emsp;   <sup>4</sup>Zhongguancun Laboratory, China. </p>
+	  <p class="text-center"><sup>2</sup>Beihang University, China    &emsp;   &emsp;  &emsp;   <sup>4</sup>Zhongguancun Laboratory, China. </p>
 	  <p class="text-center">&nbsp;</p>
-	  <h5 class="text-center"> <font color="#FF0000"> IEEE/CVF CVPR 2024 </font> </h5>
+	  <h5 class="text-center"> <font color="#0B5394"> Accepted by IEEE/CVF CVPR 2024 </font> </h5>
         </div>
       </div>
     </div>
   </div>
 </header>
 <section>
+  <div class="col-lg-12 col-md-12 col-sm-12 text-center offset-xl-1 col-xl-10"> <img src="img/logo.png" width="900" alt=""/>
   <div class="container">
     <p>&nbsp;</p>
     <div class="row">
@@ -50,28 +51,30 @@
     <hr>
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
-        <h2>Results </h2>
+        <h3>Hyperbolic text-shape representations. </h3>
         <p>&nbsp;</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 text-center offset-xl-1 col-xl-10"> <img src="assets/pipeline.png" width="900" alt=""/>
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center offset-xl-1 col-xl-10"> <img src="img/text_shape_hie.gif" width="700" alt=""/>
         <p>&nbsp;</p>
-        <p class="text-center">Fig 2. The pipeline of our graph diffusion model. With task-specific conditions, our model progressively removes noise from randomly
-          Gaussian noise and directly reconstructs the complete hand meshes. Additionally, we introduce a gradient-based guidance to improve the
-          alignment between the generated results and observations. </p>
+        <p class="text-center">Fig 1. Left: The text-shape hierarchy. Right: 3D Shape features generated from general and detailed texts in hyperbolic space. </p>
         <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </div>
+    </div>  
+    <hr>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 text-center">
+        <h3>Text2Shape Generation Results </h3>
         <p>&nbsp;</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 text-center offset-xl-1 col-xl-10"> 
-        <img src="assets/main_results.png" width="900" alt=""/>
+      <div class="col-lg-12 col-md-12 col-sm-12 text-center offset-xl-1 col-xl-10"> <img src="img/hie_generation.gif" width="900" alt=""/>
         <p>&nbsp;</p>
-        <p class="text-center">Fig 3. Qualitative results of our method for different downstream tasks. From left to right are i) hand mesh generation results from
-          random Gaussian noise, ii) hand mesh inpainting from incomplete hand mesh or skeleton, iii) hand mesh reconstruction from monocular
-          RGB image, and iv) hand mesh fitting from 2D skeletons.
-            </p>
+        <p class="text-center">Fig 2. More visualizations for capturing text-shape hierarchy.  </p>
+        <p>&nbsp;</p>
         <p>&nbsp;</p>
       </div>
     </div>
